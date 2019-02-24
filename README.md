@@ -11,6 +11,7 @@ Both models show good result, but Holt-Winters model have smaller MAE (mean abso
 Apart from this, several models for prediction demand for 1 hour are implemented:
 - dense neural network
 - gradient boosting regressor
+
 They are simpler then Holt-Winters and use window of size 168 hours (only one last week) to make prediction.
 
 
